@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nimbus Sans L";
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+#main {
+    width: 100% ;
+}
+
+#nav {
+    position: relative;
+    display: flex;
+    padding: 2vw 6vw;
+    justify-content: space-between;
+
+}
+
+#nleft {
+    display: flex;
+    gap: 30px ;
+}
+
+
+#nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav #ncenter
+{
+    font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 6vw;
+    margin-top: 13vw;
+    
+
+
+}
+#sustain{
+ line-height: 1;
+  width: 13vw;
+  
+}
+#sustain p{
+    line-height: 1;
+    font-size: small;
+    margin: 13px 0;
+    opacity: .5;
+    text-transform: capitalize;
+
+}
+
+#sustain #susimg {
+    
+    width: 100%;
+    height: 18vw;
+}
+
+#susimg img{
+
+    width: 90%;
+    height:100%;
+    object-fit: cover;
+    
+}
+
+#ephemeral{
+    position: relative;
+    width: 28vw;
+    min-height: 35vw;
+    
+}
+
+#ephemeral #headings{
+    position: absolute;
+    top: -16%;
+    left: -10%;
+}
+
+#ephemeral h1{
+    font-size: 5vw;
+    letter-spacing: -2px;
+    font-weight: 200;
+    line-height: .9;
+}
+
+#ephemeral img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ephemeral p{
+    display: flex;
+    width: 50%;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    line-height: 1;
+    font-weight: 540;
+    font-size:20px;
+}
+
+#visit{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+ #circlev{
+  
+  border: 1px solid #5e5e5e;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 3vw;
+  height: 3vw;
+
+}
+#visit h3{
+    color: #5e5e5e;
+    font-size: 20px;
+    font-weight: 50;
+}
+#circlev i{
+    color: #5e5e5e;
+
+}
+
+#hero2
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 8vw;
+    margin-top: 9vw;
+    height: 100%;
+
+}
+#hero2 h2{
+   width: 100%;
+    font-weight: 100;
+    opacity: .5;
+}
+
+#hero2 p{
+
+    
+
+     font-size: 2vw;
+     padding: 4vw 0 0 11vw;
+     line-height: 1.8;
+     text-align: end;
+     font-weight: 550;
+     
+
+
+}
+
+#hero2  span{
+    position: relative;
+    display: inline-block;
+    border-radius: 100px;
+     margin-bottom: -6px;
+
+}
+
+#one{
+    width: 80px;
+    height: 45px;
+    background-image: url(images/bluegirl.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#two{   
+    width: 100px;
+    height: 50px;
+    background-image: url(images/shaljam.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+#three{
+    width: 80px;
+    height: 45px;
+    background-image: url(images/grass.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ 
+#hero3{
+   padding: 10vw 15vw 0vw ;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#synergy{
+    width: 14vw;
+   
+}
+#synergy p{
+    margin: 10px 0;
+}
+
+#synergy img{
+    
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+
+
+
+#harmony{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 26vw;
+    height: 50vw;
+    text-align: right;
+}
+#harmony h1{
+    margin: 9px 0;
+}
+
+#harmony p{
+   
+    width: 50%;
+  
+}
+
+#harmony img{
+    width: 100%;
+    height: 35vw;
+   
+    object-fit: cover;
+    
+}
+
+#hero4{
+    width: 100%;
+    display: flex;
+
+}
+
+#hero4 #txt{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 0px 7vw;
+width: 16vw;
+
+}
+ #bimg{
+    
+    
+    width: 65%;
+    height: 80vh;
+    
+  
+}
+
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#hero4 h1{
+    font-size: 400;
+    margin: 1vw 0;
+    line-height: 1 ;
+
+}
+
+#hero5 {
+ position: relative;
+ margin-top: 6vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 100%;
+ height: 50vw;
+}
+#hero5 video{
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+ 
+}
+ #hero5 #txt2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+ }
+#hero5 #txt2 h1{
+  letter-spacing: -1px;
+  font-weight: 100;
+}
+
+#hero5 #txt2 button{
+    padding: 9px 13px;
+    margin-top: 1vw;
+    border-radius: 100px;
+    letter-spacing: -.8px;
+    outline: none;
+    border: none;
+    background-color: #e0d4d4;
+}
+
